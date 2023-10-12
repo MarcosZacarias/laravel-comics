@@ -1,1 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
+
+img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+main {
+    background-color: #1c1c1c;
+}
+.card {
+    height: 500px;
+    width: 100%;
+
+    color: white;
+    background-color: transparent;
+
+    border: none;
+    .card-header {
+        width: 100%;
+        height: 400px;
+    }
+}
